@@ -45,6 +45,17 @@ const USER_CONFIG = {
     },
 
     // ====================== 2025年核心成果 ======================
+    
+    {
+      year:     2025,
+      title:    "Complex network dismantling with node diffusion and node similarity",
+      authors:  "Jinchen Shi, Juyang Tang, Zhen Tan, Yanli Hu, Yang Fang, Xiang Zhao",
+      venue:    "Expert Systems with Applications",
+      level:    "CAS Q1 TOP",
+      links:    { pdf: "#" },
+      abstract: ""
+    },
+    
     {
       year:     2025,
       title:    "Multi-scale diffusion prediction based on user hierarchical latent interactions and cross-task feature similarity",
@@ -92,6 +103,16 @@ const USER_CONFIG = {
     },
 
     // ====================== 2024年核心成果 ======================
+    {
+      year:     2024,
+      title:    "Multiplex heterogeneous network representation learning with unipath based global awareness neural network",
+      authors:  "Yuehang Cao, Xiang Zhao, Dong Chen, Hongbin Huang",
+      venue:    "Future Generation Computer Systems",
+      level:    "CAS Q1 TOP",
+      links:    { pdf: "#" },
+      abstract: ""
+    },
+    
     {
       year:     2024,
       title:    "Hyperedge Graph Contrastive Learning",
