@@ -5,7 +5,7 @@
 const USER_CONFIG = {
   // 项目基本信息
   name:       "DisInfoNet",
-  initials:   "DN",
+  initials:   "DIN",
   role:       "Joint Dataset & Research Platform",
   university: "National University of Defense Technology, Xi'an Jiaotong University, CETC 30th Research Institute",
   email:      "xiangzhao@nudt.edu.cn",
