@@ -5,7 +5,7 @@
 const USER_CONFIG = {
   // 项目基本信息
   name:       "Zhao Lab",
-  initials:   "ZL",
+  initials:   "Z's L",
   role:       "Xiang Zhao Research Group",
   university: "National University of Defense Technology (NUDT)",
   email:      "xiangzhao@nudt.edu.cn",
