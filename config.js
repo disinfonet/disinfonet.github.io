@@ -231,22 +231,23 @@ const USER_CONFIG = {
   ],
 
   // 项目重要动态
-  news: [
-    { date: "2025.03", badge: "新",   text: "3篇论文被TKDE、ICDE、WWW 2025录用！" },
-    { date: "2025.01", badge: "成果", text: "累计发表CCF A类论文突破12篇" },
-    { date: "2024.12", badge: "突破", text: "虚假信息溯源系统上线试运行" },
-    { date: "2024.05", badge: "新",   text: "4篇论文被SIGIR、AAAI 2024录用！" },
-    { date: "2023.07", badge: "启动", text: "国家重点研发计划项目正式启动" },
+news: [
+    { date: "2025.03", badge: "New",   text: "3 papers accepted by TKDE, ICDE, and WWW 2025!" },
+    { date: "2025.01", badge: "Milestone", text: "Total CCF-A papers exceed 15" },
+    { date: "2024.12", badge: "Breakthrough", text: "Fake news tracing system goes into trial operation" },
+    { date: "2024.05", badge: "New",   text: "4 papers accepted by SIGIR and AAAI 2024!" },
+    { date: "2023.07", badge: "Launch", text: "National Key R&D Program officially launched" },
   ],
 
   // 项目核心团队
   education: [
-    { period: "项目负责人", degree: "赵翔 副教授", institution: "国防科技大学计算机学院" },
-    { period: "核心成员", degree: "肖文韬 博士研究生", institution: "国防科技大学计算机学院" },
-    { period: "核心成员", degree: "邵天扬 博士研究生", institution: "国防科技大学计算机学院" },
-    { period: "核心成员", degree: "何佳星 博士研究生", institution: "国防科技大学计算机学院" },
-    { period: "核心成员", degree: "蔡子健 博士研究生", institution: "国防科技大学计算机学院" },
-    { period: "核心成员", degree: "韩华琛 博士研究生", institution: "国防科技大学计算机学院" },
+    { period: "Project Leader", degree: "Prof. Xiang Zhao", institution: "College of Systems Engineering, National University of Defense Technology" },
+    { period: "Core Member", degree: "Wentao Xiao, Ph.D. Candidate", institution: "College of Systems Engineering, National University of Defense Technology" },
+    { period: "Core Member", degree: "Tianyang Shao, Ph.D. Candidate", institution: "College of Systems Engineering, National University of Defense Technology" },
+    { period: "Core Member", degree: "Jiaxing He, Ph.D. Candidate", institution: "College of Systems Engineering, National University of Defense Technology" },
+    { period: "Core Member", degree: "Zijian Cai, Ph.D. Candidate", institution: "College of Systems Engineering, National University of Defense Technology" },
+    { period: "Core Member", degree: "Huachen Han, Ph.D. Candidate", institution: "College of Systems Engineering, National University of Defense Technology" },
+  ],
   ],
 
   // 隐藏个人经历部分
