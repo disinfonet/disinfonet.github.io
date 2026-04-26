@@ -4,14 +4,14 @@
 
 const USER_CONFIG = {
   // 项目基本信息
-  name:       "Zhao Lab",
-  initials:   "Z's L",
-  role:       "Xiang Zhao Research Group",
-  university: "National University of Defense Technology (NUDT)",
+  name:       "DisInfoNet",
+  initials:   "DN",
+  role:       "Joint Dataset & Research Platform",
+  university: "National University of Defense Technology, Xi'an Jiaotong University, CETC 30th Research Institute",
   email:      "xiangzhao@nudt.edu.cn",
   
-  // 项目整体介绍（完全匹配表格统计）
-  bio:        "This project is supported by the National Key R&D Program for Young Scientists and the Joint Key Project of the National Natural Science Foundation of China. Aiming at major national needs in cyberspace security, it focuses on core methods for fake news detection and tracing in social networks under limited perception capabilities. The project is led by Professor Xiang Zhao's research team at the College of Systems Engineering, National University of Defense Technology, and runs from December 2022 to November 2025. To date, the project has published 39 high-quality academic papers, including 17 CCF-A international top-tier conference/journal papers and 3 CAS Zone 1 TOP journal paper. Related achievements have been widely cited by leading international conferences such as SIGIR, WWW, and TKDE.",
+  // 项目整体介绍（三家联合 + 数据集 + 无个人突出 + 官方正式表述）
+  bio:        "This project is supported by the National Key R&D Program for Young Scientists and the Joint Key Project of the National Natural Science Foundation of China. Aiming at major national needs in cyberspace security, it focuses on core methods for fake news detection and tracing in social networks under limited perception capabilities. As a collaborative achievement of three institutions, this project has constructed DisInfoNet, an open-source benchmark dataset for disinformation detection and tracing. The project runs from December 2022 to November 2025. To date, the project has published 39 high-quality academic papers, including 17 CCF-A international top-tier conference/journal papers and 3 CAS Zone 1 TOP journal papers. Related achievements have been widely cited by leading international conferences such as SIGIR, WWW, and TKDE.",
 
   photo:      "",
 
