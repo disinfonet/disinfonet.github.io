@@ -11,7 +11,7 @@ const USER_CONFIG = {
   email:      "xiangzhao@nudt.edu.cn",
   
   // 项目整体介绍（完全匹配表格统计）
-  bio:        "This project is supported by the National Key R&D Program for Young Scientists and the Joint Key Project of the National Natural Science Foundation of China. Aiming at major national needs in cyberspace security, it focuses on core methods for fake news detection and tracing in social networks under limited perception capabilities. The project is led by Professor Xiang Zhao's research team at the College of Systems Engineering, National University of Defense Technology, and runs from December 2022 to November 2025. To date, the project has published 39 high-quality academic papers, including 17 CCF-A international top-tier conference/journal papers and 1 CAS Zone 1 TOP journal paper. Related achievements have been widely cited by leading international conferences such as SIGIR, WWW, and TKDE.",
+  bio:        "This project is supported by the National Key R&D Program for Young Scientists and the Joint Key Project of the National Natural Science Foundation of China. Aiming at major national needs in cyberspace security, it focuses on core methods for fake news detection and tracing in social networks under limited perception capabilities. The project is led by Professor Xiang Zhao's research team at the College of Systems Engineering, National University of Defense Technology, and runs from December 2022 to November 2025. To date, the project has published 39 high-quality academic papers, including 17 CCF-A international top-tier conference/journal papers and 3 CAS Zone 1 TOP journal paper. Related achievements have been widely cited by leading international conferences such as SIGIR, WWW, and TKDE.",
 
   photo:      "",
 
