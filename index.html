@@ -32,7 +32,7 @@
             </div>
             <div class="nav-controls">
                 <button type="button" class="nav-btn theme-toggle" id="themeToggle" aria-label="Toggle theme">
-                    <svg class="nav-btn-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <svg class="nav-btn-icon sun-icon" viewBox="0 0 24 24" fill="none", stroke="currentColor" stroke-width="2">
                         <circle cx="12" cy="12" r="5"/>
                         <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
                     </svg>
@@ -93,7 +93,7 @@
             </div>
             <div class="hero-image">
                 <div class="image-frame">
-                    <!-- ① 首页右侧：AI主图 -->
+                    <!-- ① 头像位置：科研主图 -->
                     <div class="image-placeholder" style="padding:0; border-radius:12px; overflow:hidden;">
                         <img src="img/home.png" alt="Research" style="width:100%;height:100%;object-fit:cover;">
                     </div>
@@ -108,15 +108,9 @@
             <h2 class="section-title">
                 <span class="title-icon">//</span> Publications
             </h2>
-
-            <!-- ③ 全部4张论文框架图 整齐排列，全部显示 -->
-            <div style="display:grid; gap:16px; margin-bottom:24px;">
-                <img src="img/project1.png" style="width:100%; border-radius:8px;" alt="Framework">
-                <img src="img/project2.png" style="width:100%; border-radius:8px;" alt="Framework">
-                <img src="img/project3.png" style="width:100%; border-radius:8px;" alt="Framework">
-                <img src="img/project4.png" style="width:100%; border-radius:8px;" alt="Framework">
-            </div>
-
+            <!-- ② 论文区顶部：论文框架图 -->
+            <img src="img/project1.png" style="width:100%; border-radius:8px; margin-bottom:20px;" alt="Framework">
+            
             <div class="publications-list" id="cfg-publications">
                 <article class="pub-card" data-year="2025">
                     <div class="pub-year">2025</div>
@@ -146,6 +140,8 @@
                     </div>
                 </article>
             </div>
+            <!-- ③ 论文区底部：论文框架图 -->
+            <img src="img/project2.png" style="width:100%; border-radius:8px; margin-top:20px;" alt="Framework">
         </div>
     </section>
 
@@ -165,6 +161,8 @@
                     </div>
                 </article>
             </div>
+            <!-- ④ 项目区底部：论文框架图 -->
+            <img src="img/project3.png" style="width:100%; border-radius:8px; margin-top:20px;" alt="Framework">
         </div>
     </section>
 
