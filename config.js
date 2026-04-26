@@ -11,16 +11,16 @@ const USER_CONFIG = {
   email:      "xiangzhao@nudt.edu.cn",
   
   // 项目整体介绍（完全匹配表格统计）
-  bio:        "This project is supported by the National Key R&D Program for Young Scientists and the Joint Key Project of the National Natural Science Foundation of China. Aiming at major national needs in cyberspace security, it focuses on core methods for fake news detection and tracing in social networks under limited perception capabilities. The project is led by Professor Xiang Zhao's research team at the College of Systems Engineering, National University of Defense Technology, and runs from December 2022 to November 2025. To date, the project has published 39 high-quality academic papers, including 17 CCF-A international top-tier conference/journal papers and 3 CAS Zone 1 TOP journal papers. Related achievements have been widely cited by leading international conferences such as SIGIR, WWW, and TKDE.",
+  bio:        "This project is supported by the National Key R&D Program for Young Scientists and the Joint Key Project of the National Natural Science Foundation of China. Aiming at major national needs in cyberspace security, it focuses on core methods for fake news detection and tracing in social networks under limited perception capabilities. The project is led by Professor Xiang Zhao's research team at the College of Systems Engineering, National University of Defense Technology, and runs from December 2022 to November 2025. To date, the project has published 39 high-quality academic papers, including 17 CCF-A international top-tier conference/journal papers and 1 CAS Zone 1 TOP journal paper. Related achievements have been widely cited by leading international conferences such as SIGIR, WWW, and TKDE.",
 
   photo:      "",
 
-  // 核心成果数据看板（完全匹配表格统计）
+  // ✅ 核心成果数据看板（已调整顺序，显示最亮眼的三个数字）
   stats: [
-    { value: "39",  label: "发表论文" },
-    { value: "17",  label: "CCF A类论文" },
-    { value: "3",   label: "中科院一区TOP" },
-    { value: "1000+", label: "总引用次数" },
+    { value: "39",    label: "发表论文" },    // 第1位：显示为 PUBLICATIONS
+    { value: "1000+", label: "总引用次数" },  // 第2位：显示为 CITATIONS
+    { value: "17",    label: "CCF A类论文" }, // 第3位：显示为 PROJECTS
+    { value: "1",     label: "中科院一区TOP" },// 第4位：不显示在首页统计栏
   ],
 
   // 外部链接
