@@ -6,12 +6,12 @@ const USER_CONFIG = {
   // 项目基本信息
   name:       "Zhao Lab",
   initials:   "ZL",
-  role:       "国防科技大学 高性能数据系统课题组",
-  university: "National University of Defense Technology",
+  role:       "Xiang Zhao Research Group",
+  university: "NUDT",
   email:      "xiangzhao@nudt.edu.cn",
   
   // 项目整体介绍（突出核心成效）
-  bio:        " This project is supported by the **National Key R&D Program for Young Scientists** and the **Joint Key Project of the National Natural Science Foundation of China**. Aiming at major national needs in cyberspace security, it focuses on core methods for fake news detection and tracing in social networks under limited perception capabilities. The project is led by Professor Xiang Zhao's research team at the College of Systems Engineering, National University of Defense Technology, and runs from December 2022 to November 2025.To date, the project has published 39 high-quality academic papers, including **17 CCF-A international top-tier conference/journal papers** and **1 CAS Zone 1 TOP journal paper**. The related achievements have been widely cited by leading international conferences such as SIGIR, WWW, and TKDE, providing important theoretical and technical support for the construction of China's cyberspace fake news governance system.",
+  bio:        " This project is supported by the National Key R&D Program for Young Scientists and the Joint Key Project of the National Natural Science Foundation of China. Aiming at major national needs in cyberspace security, it focuses on core methods for fake news detection and tracing in social networks under limited perception capabilities. The project is led by Professor Xiang Zhao's research team at the College of Systems Engineering, National University of Defense Technology, and runs from December 2022 to November 2025.To date, the project has published 39 high-quality academic papers, including 17 CCF-A international top-tier conference/journal papers and 1 CAS Zone 1 TOP journal paper. The related achievements have been widely cited by leading international conferences such as SIGIR, WWW, and TKDE, providing important theoretical and technical support for the construction of China's cyberspace fake news governance system.",
   photo:      "",   // 可选：上传项目logo或团队合影
 
   // 核心成果数据看板（一眼看到成效）
