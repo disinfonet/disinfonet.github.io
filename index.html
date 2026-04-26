@@ -93,7 +93,7 @@
             </div>
             <div class="hero-image">
                 <div class="image-frame">
-                    <!-- 头像位置主图 -->
+                    <!-- 首页科研主图 -->
                     <div class="image-placeholder" style="padding:0; border-radius:12px; overflow:hidden;">
                         <img src="img/home.png" alt="Research" style="width:100%;height:100%;object-fit:cover;">
                     </div>
@@ -108,10 +108,15 @@
             <h2 class="section-title">
                 <span class="title-icon">//</span> Publications
             </h2>
-            <!-- 顶部2张图 紧凑一行 -->
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px;">
-                <img src="img/project1.png" style="width:100%; border-radius:8px; object-fit:contain;" alt="Framework">
-                <img src="img/project2.png" style="width:100%; border-radius:8px; object-fit:contain;" alt="Framework">
+
+            <!-- 顶部双图 精致均衡排版 -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)); gap:16px; margin-bottom:28px;">
+                <div style="background:#fff; padding:10px; border-radius:10px; box-shadow:0 2px 8px #00000010;">
+                    <img src="img/project1.png" style="width:100%; max-height:320px; object-fit:scale-down; border-radius:6px;" alt="Research Framework">
+                </div>
+                <div style="background:#fff; padding:10px; border-radius:10px; box-shadow:0 2px 8px #00000010;">
+                    <img src="img/project2.png" style="width:100%; max-height:320px; object-fit:scale-down; border-radius:6px;" alt="Research Framework">
+                </div>
             </div>
             
             <div class="publications-list" id="cfg-publications">
@@ -143,15 +148,20 @@
                     </div>
                 </article>
             </div>
-            <!-- 底部2张图 紧凑一行 -->
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 20px;">
-                <img src="img/project3.png" style="width:100%; border-radius:8px; object-fit:contain;" alt="Framework">
-                <img src="img/project4.png" style="width:100%; border-radius:8px; object-fit:contain;" alt="Framework">
+
+            <!-- 底部双图 精致均衡排版 -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)); gap:16px; margin-top:28px;">
+                <div style="background:#fff; padding:10px; border-radius:10px; box-shadow:0 2px 8px #00000010;">
+                    <img src="img/project3.png" style="width:100%; max-height:320px; object-fit:scale-down; border-radius:6px;" alt="Research Framework">
+                </div>
+                <div style="background:#fff; padding:10px; border-radius:10px; box-shadow:0 2px 8px #00000010;">
+                    <img src="img/project4.png" style="width:100%; max-height:320px; object-fit:scale-down; border-radius:6px;" alt="Research Framework">
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section（无图片） -->
+    <!-- Projects Section -->
     <section id="projects" class="section section-alt">
         <div class="section-container">
             <h2 class="section-title">
