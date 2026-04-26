@@ -4,21 +4,21 @@
 
 const USER_CONFIG = {
   // 项目基本信息
-  name:       "网络威胁态势感知与检测与溯源",
-  initials:   "NTD",
+  name:       "Zhao Lab",
+  initials:   "ZL",
   role:       "国防科技大学 高性能数据系统课题组",
-  university: "项目编号：2023YFB1006000",
-  email:      "xiang.zhao@nudt.edu.cn",
+  university: "National University of Defense Technology",
+  email:      "xiangzhao@nudt.edu.cn",
   
   // 项目整体介绍（突出核心成效）
-  bio:        "本项目面向国家网络空间安全重大需求，突破了网络威胁检测、溯源与态势感知的核心关键技术。累计发表高水平学术论文**30余篇**，其中CCF A类会议/期刊论文**12篇**，中科院一区TOP期刊论文**5篇**，相关成果被国际顶级会议广泛引用，为我国网络安全防御体系建设提供了重要的理论和技术支撑。",
+  bio:        " This project is supported by the **National Key R&D Program for Young Scientists** and the **Joint Key Project of the National Natural Science Foundation of China**. Aiming at major national needs in cyberspace security, it focuses on core methods for fake news detection and tracing in social networks under limited perception capabilities. The project is led by Professor Xiang Zhao's research team at the College of Systems Engineering, National University of Defense Technology, and runs from December 2022 to November 2025.To date, the project has published 39 high-quality academic papers, including **17 CCF-A international top-tier conference/journal papers** and **1 CAS Zone 1 TOP journal paper**. The related achievements have been widely cited by leading international conferences such as SIGIR, WWW, and TKDE, providing important theoretical and technical support for the construction of China's cyberspace fake news governance system.",
   photo:      "",   // 可选：上传项目logo或团队合影
 
   // 核心成果数据看板（一眼看到成效）
   stats: [
-    { value: "30+",  label: "发表论文" },
-    { value: "12",   label: "CCF A类论文" },
-    { value: "5",    label: "中科院一区TOP" },
+    { value: "39",  label: "发表论文" },
+    { value: "17",   label: "CCF A类论文" },
+    { value: "1",    label: "中科院一区TOP" },
     { value: "1000+", label: "总引用次数" },
   ],
 
