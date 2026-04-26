@@ -1429,3 +1429,40 @@ a:hover {
 /* ---- Skip Link ---- */
 .skip-link { position: absolute; top: -40px; left: 0; background: var(--accent-primary); color: #fff; padding: 8px 16px; z-index: 9999; font-size: 0.875rem; transition: top 0.2s; }
 .skip-link:focus { top: 0; }
+
+
+
+
+/* 突出CCF A类和中科院一区论文标签 */
+.publication-venue span:last-child {
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.publication-venue span:contains("CCF A类") {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.publication-venue span:contains("中科院一区TOP") {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}
+
+/* 深色模式适配 */
+@media (prefers-color-scheme: dark) {
+  .publication-venue span:contains("CCF A类") {
+    background-color: #1e3a5f;
+    color: #90caf9;
+  }
+  
+  .publication-venue span:contains("中科院一区TOP") {
+    background-color: #1b5e20;
+    color: #a5d6a7;
+  }
+}
+
+
